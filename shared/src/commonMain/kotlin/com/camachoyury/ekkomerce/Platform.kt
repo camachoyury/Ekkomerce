@@ -1,0 +1,7 @@
+package com.camachoyury.ekkomerce
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
